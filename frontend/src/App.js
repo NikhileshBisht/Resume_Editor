@@ -21,9 +21,6 @@ function App() {
           <div style={{ flex: 1, borderRight: "1px solid #ddd" }}>
             <EditPage filename={uploadedFilename} hideChat={true} />
           </div>
-          <div style={{ flex: 1, padding: 20 }}>
-            <ChatBot />
-          </div>
         </div>
       )}
     </div>
